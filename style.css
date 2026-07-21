@@ -98,16 +98,11 @@ Navbar
 ============================= */
 
 .navbar{
-    position:fixed;
-    top:10px;
-    left:50%;
-    transform:translateX(-50%);
-    width:95%;
-    min-height:90px;
+    height:90px;
+    padding:0 20px;
     display:flex;
-    justify-content:space-between;
     align-items:center;
-    padding:15px 25px;
+    justify-content:space-between;
 }
 
 background:rgba(255,255,255,.08);
@@ -257,13 +252,13 @@ Buttons
 .language-btn,
 
 .owner-btn{
-    padding:18px 45px;
-    height:60px;
+    height:52px;
+    padding:0 30px;
     display:flex;
     align-items:center;
     justify-content:center;
-    border-radius:18px;
 }
+
 border:none;
 
 border-radius:12px;
