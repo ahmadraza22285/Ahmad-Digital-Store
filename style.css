@@ -98,26 +98,17 @@ Navbar
 ============================= */
 
 .navbar{
-
-position:fixed;
-
-top:20px;
-
-left:50%;
-
-transform:translateX(-50%);
-
-width:92%;
-
-height:80px;
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-padding:0 30px;
+    position:fixed;
+    top:10px;
+    left:50%;
+    transform:translateX(-50%);
+    width:95%;
+    min-height:90px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 25px;
+}
 
 background:rgba(255,255,255,.08);
 
@@ -266,9 +257,13 @@ Buttons
 .language-btn,
 
 .owner-btn{
-
-padding:12px 22px;
-
+    padding:18px 45px;
+    height:60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:18px;
+}
 border:none;
 
 border-radius:12px;
